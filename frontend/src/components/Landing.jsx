@@ -27,9 +27,8 @@ const [res,setRes]=useState("")
 // console.log(`genre-->`,genre);
 // console.log(`language-->`,language);
 // console.log(`keywords-->`,keywords);
-const loggedInUser = JSON.parse(localStorage.getItem('PunnyPulseUser'))
+const loggedInUser = JSON.parse(localStorage.getItem('PunnyPulseUser'))||""
 // console.log(loggedInUser.Accesstoken);
-const token=loggedInUser.Accesstoken
 
 
 const handleClick=()=>{
@@ -43,7 +42,7 @@ const handleClick=()=>{
   
   axios.post('http://localhost:5000/ai/generate', requestBody, {
   headers: {
-    'Authorization': `${token}`
+    'Authorization': `${loggedInUser?.Accesstoken}`
   }
 })
   .then(response => {

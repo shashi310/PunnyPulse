@@ -9,7 +9,7 @@ import {
   InputLeftElement,
   chakra,
   Box,
-  Link,
+  
   Avatar,
   FormControl,
   FormHelperText,
@@ -19,6 +19,7 @@ import { FaUserAlt, FaLock } from "react-icons/fa";
 import Navbar from "./Navbar";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 const CFaUserAlt = chakra(FaUserAlt);
 const CFaLock = chakra(FaLock);
@@ -121,9 +122,9 @@ const handleLogin= async(e) =>{
       </Stack>
       <Box>
         New to us?{" "}
-        <Link color="teal.500" href="/signup">
+        <Link to="/signup" style={{ color: 'teal' }}>
           Sign Up
-        </Link>
+          </Link>
       </Box>
     </Flex>
     </>
