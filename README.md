@@ -1,7 +1,7 @@
 <h1>PunnyPulse React App</h1>
 
 <h4> To run PunnyPulse website clone click below link</h4>
-<ul> <li><a href="https://65358a48062e1b302411a232--glittery-rolypoly-62e56b.netlify.app/login"> Netlify Deployed Link </a></li> </ul>
+<ul> <li><a href="https://glittery-rolypoly-62e56b.netlify.app/"> Netlify Deployed Link </a></li> </ul>
 <ul> <li><a href="https://punnypulsebackend.onrender.com"> Backedn Delployed Link </a></li> </ul>
 
 <div> <p>The AI-Powered Joke, Quote, and Shayari Generator is an innovative application that leverages OpenAI's powerful language model to deliver personalized and contextually relevant content based on user-specified keywords. This project aims to provide users with a seamless and enjoyable experience of receiving jokes, quotes, and shayari tailored to their preferences</p>
